@@ -14,11 +14,12 @@ public class Boletin5 {
         
         
         
-        System.out.println("nome=" +nome+n/"nConta=" +nConta+n/"saldo=" +saldo);
+        System.out.print("nome=" +contaOrigen.getnome()+"/nnConta=" +contaOrigen.getnConta()+"/nsaldo=" +contaOrigen.getsaldo());
+        
         
     
-        saldoConta.transferencia(1500);
-        System.out.println("transferencia="+ saldoConta.getsaldo());
+       // saldoConta.transferencia(1500);
+       // System.out.println("transferencia="+ saldoConta.getsaldo());
     
 }
 }
