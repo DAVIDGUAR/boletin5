@@ -52,21 +52,21 @@ public double getsaldo(){
 return saldo;
 }
 
-public void ingreso(double ingreso){
+public void setingreso(double ingreso){
     
     saldo= saldo+ingreso;
    
 }
 
 
-public void reintegro(double reintegro){
+public void setreintegro(double reintegro){
     
     saldo= saldo-reintegro;    
     
 }
 
 
-public void transferencia (double transferencia){
+public void settransferencia (double transferencia){
     saldo = saldo+transferencia;
        
 }
