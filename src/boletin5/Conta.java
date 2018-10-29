@@ -66,11 +66,9 @@ public void reintegro(double reintegro){
 }
 
 
-
-    System.out.println("nome" + nome,"nConta" +nConta,"saldo" +saldo);
-    
-    
+public void transferencia (double transferencia){
+    saldo = saldo+transferencia;
+       
 }
-
 
 }
